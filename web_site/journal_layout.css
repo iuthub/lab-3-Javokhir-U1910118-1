@@ -1,0 +1,103 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/679016.jpg");
+
+}
+.whole{
+    border: 10px white solid;
+    background-color: white;
+    display: block;
+    margin-right: 10%;
+    margin-left: 10%;
+    display:border-box;
+
+}
+
+
+
+
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.column {
+    float: left;
+    padding: 10px;
+
+
+}
+
+.left {
+    border: 4px #2093c3 solid;
+    background-color: #65c9d4;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom:auto;
+
+}
+
+.right {
+    width: 80%;
+    margin-right: 0;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+.first{
+    background-color:  #A8F0F0;
+    text-align: right;
+    margin-right: 0;
+}
+
+.first1{
+    font-size: 14pt;
+}
+
+.second{
+    border: 4px #C2E9E9 solid;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 0;
+}
+.second img{
+    float:right;
+
+
+    height: 60px;
+    width: 60px;
+
+}
+span.second1{
+    border-bottom: 2px lightblue dashed;
+}
+.third{
+    border: 4px #C2E9E9 solid;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right:0;
+}
+span.third1{
+    border-bottom: 2px lightblue dashed;
+}
+.third img
+{
+    float:right;
+
+
+    height: 80px;
+    width: 80px;
+
+}
+
+h1:hover {
+    background-color: yellow;
+}
