@@ -1,0 +1,38 @@
+body
+{
+    border: 5px solid green;
+    background-image: url("../images/background.gif");
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.head
+{
+    text-align: right;
+    background-color: aliceblue;
+    border: 5px solid red;
+}
+.headIn
+{
+    background-color: aliceblue;
+    border: 5px solid orange;
+}
+.date
+{
+    background-color: aliceblue;
+    border: 5px solid purple;
+}
+.box
+{
+    background-color: #E8FBFB;
+    border: 5px solid blue;
+    padding: 5px;
+    margin-top: 10px;
+    clear: right;
+    overflow: hidden;
+}
+.image
+{
+    float: right;
+
+}
