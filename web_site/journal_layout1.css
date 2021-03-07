@@ -1,0 +1,22 @@
+body
+{
+    border: 10px solid green;
+    background-color: aliceblue;
+
+}
+.head
+{
+    border: 10px solid red;
+}
+.headIn
+{
+    border: 10px solid orange;
+}
+.date
+{
+    border: 10px solid purple;
+}
+.box
+{
+    border: 10px solid blue;
+}
